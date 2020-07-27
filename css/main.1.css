@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+/*初期設定*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  /* 10px */
+}
+
+div {
+  font-size: 2.0rem;
+  padding: 1.5em;
+}
+
+div p {
+  font-size: 3.0rem;
+}
+
+div.box {
+  padding: 0;
+  margin:0;
+  background: red;
+  width:50%;
+  height:10px;
+}
+
+
+/*初期設定ここまで*/
+
+
+/*ナビバー*/
+
+
+#g_navi ul {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 3%;
+	width: 94%;
+	max-width: 960px;
+	list-style: none;
+}
+
+#g_navi ul li {
+	position: relative;
+	float: left;
+	width: 20%;
+}
+
+#g_navi ul li a {
+ 	display: block;
+	padding: 17px 5%;
+	width: 90%;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+/*ナビバーここまで*/
+
+
+/*メイン写真*/
+
+.main {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+/*メイン写真ここまで*/
+
+
+/*<!--フォトギャラリー--->*/
+
+
+/* オーバーレイする背景 初期状態 */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+/* オーバーレイする背景 開始時アニメーション */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+/* オーバーレイする背景 終了時アニメーション */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* コンテンツ 初期状態 */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+/* コンテンツ 開始時アニメーション */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+/* コンテンツ 終了時アニメーション */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+
+
+
+
+
+.gallery{
+    height: 600px;
+    display: flex;
+}
+
+.img1{
+    display: block;
+    height: 100%;
+    width: 12.5%;
+    background-size: cover;
+    background-image: url('../images/myphoto (6).png');
+    background-position: center;
+    
+}
+
+.img2{
+    display: block;
+    height: 100%;
+    width: 12.5%;
+    background-size: cover;
+    background-image: url('../images/myphoto (5).png');
+    background-position: center;
+}
+
+.img3{
+    display: block;
+    height: 100%;
+    width: 12.5%;
+    background-size: cover;
+    background-image: url('../images/myphoto (4).PNG');
+    background-position: center;
+}
+
+.img4{
+    display: block;
+    height: 100%;
+    width: 12.5%;
+    background-size: cover;
+    background-image: url('../images/myphoto (19).png');
+    background-position: center;
+}
+
+.img5{
+    display: block;
+    height: 100%;
+    width: 12.5%;
+    background-size: cover;
+    background-image: url('../images/myphoto (17).png');
+    background-position: center;
+}
+
+
+.img6{
+    display: block;
+    height: 100%;
+    width: 12.5%;
+    background-size: cover;
+    background-image: url('../images/myphoto (21).png');
+    background-position: center;
+}
+
+.img7{
+    display: block;
+    height: 100%;
+    width: 12.5%;
+    background-size: cover;
+    background-image: url('../images/myphoto (14).png');
+    background-position: center;
+}
+
+
+.img8{
+    display: block;
+    height: 100%;
+    width: 12.5%;
+    background-size: cover;
+    background-image: url('../images/myphoto (1).jpg');
+    background-position: center;
+}
+
+
+/*<!--フォトギャラリーここまで--->*/
+
+
+/*フッター*/
+
+footer {
+ text-align:center;
+}
+
+.copyright {
+  font-size: 15px;
+}
+
+/*フッターここまで*/
